@@ -58,7 +58,7 @@ p{
   margin: 10px 20px;
   text-decoration: none;
   position: absolute;
-  left: 90%;
+  left: 90% !important;
   top: 2%;
 }
 

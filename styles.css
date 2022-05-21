@@ -52,7 +52,25 @@ p{
   line-height: 2;
 }
 
+.language-change{
+  color: #11999E !important;
+  font-family: "Montserrat", sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+  position: absolute;
+  left: 90%;
+  top: 2%;
+}
 
+.language-change:hover{
+  color: #66BFBF !important;
+  font-family: "Montserrat", sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+  position: absolute;
+  left: 90%;
+  top: 2%;
+}
 
 .intro{
   width: 30%;

@@ -33,7 +33,7 @@
       <h2>My Skills.</h2>
       <div class="skill-row">
         <img class="three-d-modeling" src="Images/3d-modeling.png" alt="3d-modeling-screen">
-        <h3>3D modeling</h3>
+         <h3><a href="#modeling">3D modeling</a></h3>
         <p>I have plenty experience creating different 3D assets, from stylized to realistic ones, if you have any questions feel free to reach out and ask.</p>
       </div>
       <div class="skill-row">
@@ -81,5 +81,21 @@
 
 
 </body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("a").on('click', function(event) {
 
+    if (this.hash !== "") {
+      event.preventDefault();
+      var hash = this.hash;
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+        window.location.hash = hash;
+      });
+    }
+  });
+});
+</script>
 </html>
